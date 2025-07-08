@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: darkgray;
+}
+img{
+    height: 300px;
+    padding: 2px;
+}
+footer.flex1{
+    margin: 2px;  
+    border: 1px solid blue;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+div.texto{
+    flex: 1 1 500px;
+    padding: 5px;
+}
+footer.flex2{
+    display: flex;
+    flex-flow: row wrap;
+}
+div.texto2{
+    flex: 1 0 500px;
+}
+div.video iframe{
+    display: block;
+    margin: auto;
+    width: 98%;
+    padding: 2px;
+}
